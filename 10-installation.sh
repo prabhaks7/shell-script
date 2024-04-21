@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ $ISERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
   echo "Please run this script with root aaccess"
   exit 1  # manually exit if error comes.
@@ -12,3 +12,4 @@ fi
 
 dnf install mysql -y
 
+echo "is script proceeding"
