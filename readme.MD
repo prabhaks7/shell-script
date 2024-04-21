@@ -19,4 +19,8 @@ git push -u origin main
 
 **naming convention : use small case with Hypons(-). No spaces**
 
+'''''''
+git add . ; git commit -m "hello-github-lab"; git push -u origin main
+'''''''
+
 
